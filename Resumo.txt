@@ -1,0 +1,37 @@
+Storage Tiers - Camadas de storage:
+STANDARD - frequentemente acessados
+STANDARD_IA - (IA = infrequent access)
+INTELIGENT_TIERING = inteligente
+ONEZONE_IA = dados nao critcos
+GLACIER = latencia na recuperacao dos dados
+DEEP_ARCHIVE = latencia minima de 12 para recuperacao
+RSS (Not recommended)
+
+
+Ciclo de vida:
+Conjunto de regras para gerenciar a vida do objeto ou grupono bucket
+2 tipos
+Transição:
+Muda a tier storage
+
+Expiração:
+Quando deve ser excluido
+
+Versionamento:
+Obter o versionamento de objetos dentro do bucket, pode ser desativado posteriormente
+
+
+Replicacao em outras regioes:
+da mesma conta ou conta diferente, vai replicar os objetos de forma async para o outro bucket
+
+
+Etags:
+Itenfica de maneira exclusiva um objeto no bucket por meio do MD5
+
+Performance:
+
+Criptografia:
+
+Seguranca:
+
+Glacier:
